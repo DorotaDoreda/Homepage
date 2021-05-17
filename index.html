@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Moja pierwsza strona</title>
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+        integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+        crossorigin="anonymous" />
+    <script defer src="js/script.js"></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap"
+        rel="stylesheet">
+
+
+</head>
+
+<body class="body">
+
+    <main>
+        <header>
+            <h1 class="header">Ahoj wszystkim!</h1>
+        </header>
+        <p>
+            <button class="buttonChange js-buttonChange">Włącz <span class="buttonChange__inscription">ciemny</span> motyw</button>
+        </p>
+
+        <nav>
+            <ul class="navigation">
+                <li class="navigation__item"><a class="navigation__link" href="#start">Start</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#moje-początki">Moje początki</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#co-później">Co później</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#co-dalej">Co dalej</a></li>
+                <li class="navigation__item"><a class="navigation__link" href="#patent">Patent</a></li>
+            </ul>
+        </nav>
+        <section class="section" id="start">
+
+            <h2 class="section__headerTwo">Mam na imię Dorota.</h2>
+            <img width="250" src="https://i.ibb.co/mcFm9bj/fota.jpg" alt="fota">
+
+        </section>
+
+        <section class="section" id="moje-początki">
+            <h2 class="section__headerTwo">Moja przygoda z żeglarstwem.</h2>
+            <div class="section__border">
+                <p class="section__border--textColor"><strong>Moja przygoda z żeglarstwem rozpoczęła się kiedy miałam 3
+                        lata. </strong>Mój
+                    tata
+                    projektował i budował
+                    jachty. Od dziecka z całą rodziną pływalismy po <span class="section__border--lakeName">Zalewie
+                        Koronowskim</span> na
+                    jachcie
+                    typu
+                    Venus. Mój tata był również
+                    sędzią żeglarskim i jako mały brzdąc na wszystkich regatach organizowanych w naszym klubie
+                    żeglarskim
+                    Wind,
+                    oddzwaniałam jachty wpływające na metę.
+                </p>
+            </div>
+        </section>
+
+
+        <section class="section" id="co-później">
+            <h2 class="section__headerTwo">Co później?</h2>
+            <div class="section__border">
+                <p class="section__border--textColor">W dorosłym już życiu pływałam głównie po jeziorach mazurskich i
+                    Morzu Bałtyckim
+                    głównie po Zatoce
+                    Gdańskiej.
+                </p>
+            </div>
+        </section>
+
+
+        <section class="section" id="co-dalej">
+            <h2 class="section__headerTwo">Co dalej?</h2>
+            <div class="section__border">
+                <p class="section__border--textColor"> <span class="section__border--quotation">,,Chciałem być
+                        marynarzem,<br>chciałem mieć tatuaże..."
+                    </span> <br>
+                    Obecnie mieszkam w
+                    Gdyni i planuję zrobić kurs na sternika morskiego, aby podejść do egzaminu trzeba mieć zaliczonych
+                    200h
+                    na
+                    morzu
+                    w postaci rejsów morskich.</p>
+            </div>
+        </section>
+
+        <section id="patent">
+            <div class="container">
+                <table class="container__table">
+                    <caption class="container__table--caption"> Czas i koszt zdobycia patentu</caption>
+                    <tr>
+                        <th class="container__table--tableCell container__table--tableHeader" scope="col">Składowe</th>
+                        <th class="container__table--tableCell container__table--tableHeader" scope="col">Ilość dni</th>
+                        <th class="container__table--tableCell container__table--tableHeader" scope="col">Koszt</th>
+                    </tr>
+                    <tr>
+                        <th class="container__table--tableCell container__table--tableHeader" scope="row">Kurs</th>
+                        <td class="container__table--tableCell">7</td>
+                        <td class="container__table--tableCell">1200</td>
+                    </tr>
+                    <tr>
+                        <th class="container__table--tableCell container__table--tableHeader" scope="row">Rejs I</th>
+                        <td class="container__table--tableCell">7</td>
+                        <td class="container__table--tableCell">1000</td>
+                    </tr>
+                    <tr>
+                        <th class="container__table--tableCell container__table--tableHeader" scope="row">Rejs II</th>
+                        <td class="container__table--tableCell">7</td>
+                        <td class="container__table--tableCell">1000</td>
+                    </tr>
+                    <tr>
+                        <th class="container__table--tableCell container__table--tableHeader" scope="row">Egzamin</th>
+                        <td class="container__table--tableCell">2</td>
+                        <td class="container__table--tableCell">200</td>
+                    </tr>
+                    <tr>
+                        <th class="container__table--tableCell container__table--tableHeader" scope="row">Razem</th>
+                        <td class="container__table--tableCell">24</td>
+                        <td class="container__table--tableCell">3400</td>
+                    </tr>
+
+
+
+
+
+                </table>
+
+            </div>
+
+
+        </section>
+
+
+    </main>
+    <footer class="footer">Kurs You Code 2021</footer>
+
+</body>
+
+</html>

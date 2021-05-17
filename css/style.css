@@ -1,0 +1,139 @@
+html {
+    box-sizing: border-box;
+}
+
+*, ::after, ::before {
+    box-sizing: inherit;
+}
+
+.body {
+    background-color: rgba(163, 204, 228, 0.267);
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 0 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    line-height: 1, 5;
+}
+
+.dark {
+    background-color: #0c232e;
+    color: rgba(163, 204, 228, 0.267);
+}
+
+.header {
+    color: rgb(11, 16, 87);
+    background-color: cornsilk;
+    font-size: 40px;
+    font-weight: bold;
+    border: 3px solid rgb(11, 16, 87);
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 5px 7px 5px 0px #4f7b99;
+    padding: 15px;
+}
+
+.buttonChange {
+    background-color: rgb(183, 240, 218);
+    color: #0c232e;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.navigation {
+    list-style-type: none
+}
+
+.navigation__item {
+    display: inline-block;
+    text-align: center;
+    background-color: rgb(149, 190, 236);
+    border-radius: 20px;
+    border-bottom: 2px solid rgb(7, 3, 61);
+    padding: 10px 15px;
+    margin: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.navigation__link {
+    text-decoration: none;
+    color: rgb(156, 11, 48);
+}
+
+.navigation__link:hover {
+    color: rgb(211, 18, 195);
+}
+
+.section {
+    padding: 20px 0;
+}
+
+.section__headerTwo {
+    color: rgb(11, 16, 87);
+    background-color: rgb(183, 240, 218);
+    border: 3px solid rgb(11, 16, 87);
+    border-radius: 25px;
+    position: relative;
+    box-shadow: 5px 7px 5px 0px #4f7b99;
+    padding: 30px;
+}
+
+.section__border {
+    max-width: 400px;
+    background-color: cornsilk;
+    border: 2px solid rgb(11, 16, 87);
+    padding: 20px 40px;
+    margin: 40px;
+    margin: auto
+}
+
+.section__border--textColor {
+    color: rgb(11, 16, 87);
+}
+
+.section__border--lakeName {
+    color: rgb(156, 11, 48);
+}
+
+.section__border--quotation {
+    font-style: italic;
+}
+
+.container {
+    overflow-x: auto;
+}
+
+.container__table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container__table--caption {
+    font-size: 16px;
+    line-height: 1, 5;
+    font-weight: bold;
+    padding: 20px
+}
+
+.container__table--tableCell {
+    border: 2px solid rgb(11, 16, 87);
+    padding: 10px;
+    text-align: center;
+    vertical-align: middle;
+    background-color: cornsilk;
+    color: hsla(240, 76%, 41%, 0.822)
+}
+
+.container__table--tableHeader {
+    background-color: rgb(183, 240, 218);
+    color: hsla(240, 76%, 41%, 0.822);
+}
+
+.footer {
+    padding: 20px
+}

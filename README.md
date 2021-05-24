@@ -1,9 +1,9 @@
-#Moja pierwsza strona
+# Moja pierwsza strona
 
-##Demo
+## Demo
 https://dorotadoreda.github.io/Homepage/
 
-##Opis
+## Opis
 Moja przygoda z żeglarstwem
 ![mała ja](images/fota.jpg)
 

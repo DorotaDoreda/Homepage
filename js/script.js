@@ -1,4 +1,7 @@
-console.log("Siema!");
+function welcome() {console.log("Siema!");
+
+}
+welcome();
 
 let buttonChange = document.querySelector(".js-buttonChange");
 let body = document.querySelector(".body");

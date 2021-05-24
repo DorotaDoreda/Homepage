@@ -1,16 +1,27 @@
-function welcome() {console.log("Siema!");
+{
+  const welcome = () => {
+    console.log("Siema!");
+
+  }
+
+  const onChangeBackgroundClick = () => {
+    const body = document.querySelector(".body");
+    const buttonChange__inscription = document.querySelector(".buttonChange__inscription");
+    body.classList.toggle("dark");
+    buttonChange__inscription.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
+  }
+
+  const init = () => {
+    const buttonChange = document.querySelector(".js-buttonChange");
+    buttonChange.addEventListener("click", onChangeBackgroundClick);
+    welcome();
+  }
+  init();
+
+
+
 
 }
-welcome();
-
-let buttonChange = document.querySelector(".js-buttonChange");
-let body = document.querySelector(".body");
-let buttonChange__inscription = document.querySelector(".buttonChange__inscription");
-
-buttonChange.addEventListener("click", () => {
-  body.classList.toggle("dark");
-  buttonChange__inscription.innerText = body.classList.contains("dark") ? "jasny" : "ciemny";
-});
 
 
 
